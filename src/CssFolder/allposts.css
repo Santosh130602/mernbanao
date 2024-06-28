@@ -1,0 +1,87 @@
+.all-posts-top-ccontainer {
+  width: 100%;
+}
+.top-heading-all-posts {
+  width: 100%;
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.post-container {
+  width: 100%;
+}
+
+.single-post-holder {
+  border: 0.5px solid #ccc;
+  width: 60%;
+  max-height: 680px;
+  border-radius: 8px;
+}
+
+.top-username-holder {
+  width: 100%;
+  text-align: left;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.actual-post-div {
+  width: 100%;
+  max-height: 580px;
+  overflow: hidden;
+}
+
+.post-footer {
+  width: 100%;
+  height: 60px;
+  border-top: 0.5px solid #ccc;
+}
+
+.image-container {
+  /* width: 100%; */
+  max-width: 100%; /* Ensure the image does not overflow the container */
+  /* height: auto; Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image covers the container without stretching */
+  display: block;
+}
+
+/* my post */
+.list-container {
+  position: relative;
+}
+
+.list-container ul {
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+}
+
+.list-group {
+  z-index: 1000;
+  /* width: 160px; */
+  /* height: 102px; */
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.list-group-item {
+  border: none;
+  cursor: pointer;
+}
+
+.heart-comment-icons {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.likes-text {
+  font-weight: 600;
+}
+
+.comment-add-input {
+  width: 65%;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
